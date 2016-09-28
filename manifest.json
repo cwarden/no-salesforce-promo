@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "No Amazon Sidebar",
+	"version": "1.0",
+
+	"description": "Disable loading of Amazon sidebar",
+
+	"permissions": [
+		"webRequestBlocking",
+		"webRequest",
+		"*://*.amazon.com/*"
+	],
+	"background": {
+		"persistent": true,
+		"page": "background.html"
+	}
+}
